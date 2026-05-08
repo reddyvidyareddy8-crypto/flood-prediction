@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+backend/.env
+frontend/.env
+
+# ML Models (regenerate with train.py)
+ml/model/*.pkl
+
+# Databases
+*.db
+
+# Node
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+
+# Frontend build
+frontend/dist/
+dist/
+
+# Zip archives
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
